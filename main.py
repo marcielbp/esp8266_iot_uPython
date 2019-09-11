@@ -13,7 +13,8 @@ bme = bme280.BME280(i2c=i2c)
 
 while 1:
 	sensor.measure()
-	a =  'https://script.google.com/macros/s/AKfycbwOzbQdFGxL5_u-M4SRZWCHCMt-9XC07PXKNWxcyKIZu778Uio/exec?allData=blank-' + str(sensor.humidity()) + '-12-13-14'
-	urequests.get(a)
-	print(bme.values)
-	print(sensor.humidity())
+	a =  'https://script.google.com/macros/s/AKfycbwOzbQdFGxL5_u-M4SRZWCHCMt-9XC07PXKNWxcyKIZu778Uio/exec?allData=blank-' +str(bme.values[0])+'-'+str(bme.values[1])+ '-'+ str(sensor.humidity())
+	try:
+		urequests.get(a)
+	except:
+		pass

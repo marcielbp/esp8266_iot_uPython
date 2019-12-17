@@ -23,3 +23,11 @@ Remove files (REPL)
 TODO:
  - [ ] Integrate datalogger project;
  - [ ] Check display driver [pcd8544](https://github.com/mcauser/micropython-pcd8544);
+ 
+ ## Pinout ESP-8266-12E
+ 
+ ![image](assets/images/ESP8266-NodeMCU-kit-12-E-pinout-gpio-pin.png)
+
+## Pinout WEMOS-D1
+
+![image](assets/images/ESP8266-WeMos-D1-Mini-pinout-gpio-pin.png)

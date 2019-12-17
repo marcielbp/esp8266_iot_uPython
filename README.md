@@ -7,9 +7,9 @@ Access [http://micropython.org/](http://micropython.org/) to download firmware a
 
 ## How to send and receive file ESP-8266?
 
-REPL: Use `picocom`: `$ picocom /dev/ttyUSB0 -b115200`
+REPL: Use [`picocom`](https://developer.ridgerun.com/wiki/index.php/Setting_up_Picocom_-_Ubuntu): `$ picocom /dev/ttyUSB0 -b115200`
 
-Send file: Use `ampy`: `$ ampy --port /dev/ttyUSB0 put filename.py`
+Send file: Use [`ampy`](https://github.com/scientifichackers/ampy): `$ ampy --port /dev/ttyUSB0 put filename.py`
 
 Remove files (REPL)
 ```>>> import os

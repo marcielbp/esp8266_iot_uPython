@@ -12,7 +12,8 @@ REPL: Use [`picocom`](https://developer.ridgerun.com/wiki/index.php/Setting_up_P
 Send file: Use [`ampy`](https://github.com/scientifichackers/ampy): `$ ampy --port /dev/ttyUSB0 put filename.py`
 
 Remove files (REPL)
-```>>> import os
+```
+>>> import os
 >>> os.listdir()
 ['boot.py', 'port_config.py', 'data.txt']
 >>> os.mkdir('dir')

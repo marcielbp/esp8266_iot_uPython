@@ -18,3 +18,7 @@ Remove files (REPL)
 >>> os.mkdir('dir')
 >>> os.remove('data.txt')
 ```
+
+TODO:
+ - [ ] Integrate datalogger project;
+ - [ ] Check display driver [pcd8544](https://github.com/mcauser/micropython-pcd8544);

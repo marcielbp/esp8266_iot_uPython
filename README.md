@@ -24,6 +24,10 @@ TODO:
  - [ ] Integrate datalogger project;
  - [ ] Check display driver [pcd8544](https://github.com/mcauser/micropython-pcd8544);
  
+DOING:
+
+- [x] Display driver [st7735](https://github.com/marcielbp/micropython-st7735-esp8266);
+ 
  ## Pinout ESP-8266-12E
  
  ![image](assets/images/ESP8266-NodeMCU-kit-12-E-pinout-gpio-pin.png)
